@@ -1,0 +1,103 @@
+
+/* merriweather fonts */
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  /* header styles */
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .banner-container{
+    max-width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-image: url(../images/Banner\ Image.png);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-bottom: 220px;
+  }
+  .banner-content{
+    margin: 0 auto;
+    width: 632px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    /* border: 194px 362px 177px 326px; */
+    /* text-align: center; */
+  }
+
+  .banner-content p{
+    width: 260;
+    height: 38;
+    font-size: 32px;
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+
+  }
+  .banner-content h1{
+    width: 632;
+    height: 178;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+
+  }
